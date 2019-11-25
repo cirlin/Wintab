@@ -4,7 +4,7 @@ var ksz=[0.013,0.027,0.021,0.016,0.025,0.013,0.031];
 var wink=':';
 function Dater()
 {
-//ñíà÷àëà ðàçáåðåìñÿ ñî øðèôòàìè
+//ÑÐ½Ð°Ñ‡Ð°Ð»Ð° Ñ€Ð°Ð·Ð±ÐµÑ€ÐµÐ¼ÑÑ ÑÐ¾ ÑˆÑ€Ð¸Ñ„Ñ‚Ð°Ð¼Ð¸
 
 var fsz= document.body.clientWidth;
 fsz=(fsz>1600)?fsz*1.19 : fsz;
@@ -14,7 +14,7 @@ var el=document.getElementsByClassName(kname[i]);
 var fs= fsz * ksz[i] + "px";
 for(var j=0,le=el.length;j<le;j++)el[j].style.fontSize=fs;
  } 
-//òåïåðü ÷àñû
+//Ñ‚ÐµÐ¿ÐµÑ€ÑŒ Ñ‡Ð°ÑÑ‹
     if(t<1)return;
     var date = new Date();
     var year=date.getFullYear();
@@ -38,29 +38,29 @@ for(var j=0,le=el.length;j<le;j++)el[j].style.fontSize=fs;
         hours = '0' + hours;
     }
 switch(day)
-{case 1: day="Ïîíåäåëüíèê"; break;
- case 2: day="Âòîðíèê"; break;
- case 3: day="Ñðåäà"; break;
- case 4: day="×åòâåðã"; break;
- case 5: day="Ïÿòíèöà"; break;
- case 6: day="Ñóááîòà"; break;
- case 0: day="Âîñêðåñåíüå"; break;
- default:day="Íåò çíà÷åíèÿ"}
+{case 1: day="ÐŸÐ¾Ð½ÐµÐ´ÐµÐ»ÑŒÐ½Ð¸Ðº"; break;
+ case 2: day="Ð’Ñ‚Ð¾Ñ€Ð½Ð¸Ðº"; break;
+ case 3: day="Ð¡Ñ€ÐµÐ´Ð°"; break;
+ case 4: day="Ð§ÐµÑ‚Ð²ÐµÑ€Ð³"; break;
+ case 5: day="ÐŸÑÑ‚Ð½Ð¸Ñ†Ð°"; break;
+ case 6: day="Ð¡ÑƒÐ±Ð±Ð¾Ñ‚Ð°"; break;
+ case 0: day="Ð’Ð¾ÑÐºÑ€ÐµÑÐµÐ½ÑŒÐµ"; break;
+ default:day="ÐÐµÑ‚ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ"}
 
 switch(month)
-{case 0: month="ßíâàðÿ"; break;
- case 1: month="Ôåâðàëÿ"; break;
- case 2: month="Ìàðòà"; break;
- case 3: month="Àïðåëÿ"; break;
- case 4: month="Ìàÿ"; break;
- case 5: month="Èþíÿ"; break;
- case 6: month="Èþëÿ"; break;
- case 7: month="Àâãóñòà"; break;
- case 8: month="Ñåíòÿáðÿ"; break;
- case 9: month="Îêòÿáðÿ"; break;
- case 10: month="Íîÿáðÿ"; break;
- case 11: month="Äåêàáðÿ"; break;
- default:month="Íåò çíà÷åíèÿ"}
+{case 0: month="Ð¯Ð½Ð²Ð°Ñ€Ñ"; break;
+ case 1: month="Ð¤ÐµÐ²Ñ€Ð°Ð»Ñ"; break;
+ case 2: month="ÐœÐ°Ñ€Ñ‚Ð°"; break;
+ case 3: month="ÐÐ¿Ñ€ÐµÐ»Ñ"; break;
+ case 4: month="ÐœÐ°Ñ"; break;
+ case 5: month="Ð˜ÑŽÐ½Ñ"; break;
+ case 6: month="Ð˜ÑŽÐ»Ñ"; break;
+ case 7: month="ÐÐ²Ð³ÑƒÑÑ‚Ð°"; break;
+ case 8: month="Ð¡ÐµÐ½Ñ‚ÑÐ±Ñ€Ñ"; break;
+ case 9: month="ÐžÐºÑ‚ÑÐ±Ñ€Ñ"; break;
+ case 10: month="ÐÐ¾ÑÐ±Ñ€Ñ"; break;
+ case 11: month="Ð”ÐµÐºÐ°Ð±Ñ€Ñ"; break;
+ default:month="ÐÐµÑ‚ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ"}
 wink=(wink==':')?' ' : ':';
 document.getElementById('day').innerHTML =day+' '+dat;
 document.getElementById('month').innerHTML =month+' '+year;
