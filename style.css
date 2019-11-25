@@ -1,0 +1,11 @@
+table{background-color:#FFFFFF;POSITION:absolute;LEFT:0px;TOP:0px;width:100%;COLOR:#000000}
+caption{background-color:#1BC4F5}
+.prim{FONT-WEIGHT: bold;TEXT-ALIGN:center}
+.sek{FONT-WEIGHT: bold;FONT-FAMILY: tahoma;TEXT-ALIGN:right;COLOR:#FFFFFF}
+.nm,.nmd{WIDTH:45%}
+.im{WIDTH:12%}
+.kr,.kdr{background-color:#1BC4F5;TEXT-ALIGN:center;FONT-WEIGHT: bold;FONT-FAMILY:tahoma;cellpadding:5px}
+.nm,.nmd,.im,.iml,#date{FONT-WEIGHT:bold;FONT-FAMILY:arial;COLOR:#FFFFFF;background-color:#1BC4F5}
+#date{Z-index:3;TEXT-ALIGN:center;width:13%;COLOR:#000000}
+td.im>img {width:38%}
+td.iml>img {width:75%}
